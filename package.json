@@ -1,0 +1,28 @@
+{
+  "name": "learn_node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "test.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "connect": "^3.7.0",
+    "express": "^4.17.1",
+    "formidable": "^1.2.2",
+    "htmlparser": "^1.7.7",
+    "mime": "^2.4.5",
+    "mongodb": "^3.5.7",
+    "mysql": "^2.18.1",
+    "querystring": "^0.2.0",
+    "redis": "^3.0.2",
+    "socket.io": "^2.3.0",
+    "underscore": "^1.9.2"
+  },
+  "devDependencies": {
+    "vue-awesome-swiper": "^4.1.1"
+  }
+}

@@ -1,0 +1,49 @@
+Arguments: 
+  /Users/dxm/.nvm/versions/node/v10.12.0/bin/node /Users/dxm/.nvm/versions/node/v10.12.0/bin/yarn add request
+
+PATH: 
+  /Users/dxm/Desktop/learn_node/flutter/bin:/Applications/XAMPP/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/dxm/.nvm/versions/node/v10.12.0/bin://flutter/bin:/Applications/XAMPP/bin:/Users/dxm/Library/Android/sdk/tools:/Users/dxm/Library/Android/sdk/platform-tools:/Users/dxm/Library/Android/sdk/tools:/Users/dxm/Library/Android/sdk/platform-tools
+
+Yarn version: 
+  1.22.0
+
+Node version: 
+  10.12.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/underscore: tunneling socket could not be established, statusCode=403
+      at ClientRequest.onConnect (/Users/dxm/.nvm/versions/node/v10.12.0/lib/node_modules/yarn/lib/cli.js:152202:19)
+      at Object.onceWrapper (events.js:273:13)
+      at ClientRequest.emit (events.js:182:13)
+      at Socket.socketOnData (_http_client.js:474:11)
+      at Socket.emit (events.js:182:13)
+      at addChunk (_stream_readable.js:283:12)
+      at readableAddChunk (_stream_readable.js:264:11)
+      at Socket.Readable.push (_stream_readable.js:219:10)
+      at TCP.onStreamRead [as onread] (internal/stream_base_commons.js:94:17)
+
+npm manifest: 
+  {
+    "name": "learn_node",
+    "version": "1.0.0",
+    "description": "",
+    "main": "test.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "underscore": "^1.9.2"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
